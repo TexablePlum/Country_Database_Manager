@@ -1,0 +1,4 @@
+<map id="Country" name="Country">
+<area shape="rect" id="node5" href="$class_country_database.html" title="Klasa reprezentujaca baze danych krajow. " alt="" coords="5,347,184,557"/>
+<area shape="rect" id="node2" href="$class_editable.html" title="Klasa abstrakcyjna reprezentujaca edytowalne elementy. " alt="" coords="60,6,129,98"/>
+</map>

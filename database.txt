@@ -1,0 +1,54 @@
+Argentyna
+Buenos Aires
+Ameryka Poludniowa
+G20,Unia Poludniowoamerykanska,
+
+Australia
+Canberra
+Australia i Oceania
+Grupa 5 Eyes,Wspolnota Narodow,
+
+Chiny
+Pekin
+Azja
+Grupa BRICS,Organizacja Narodow Zjednoczonych,
+
+Egipt
+Kair
+Afryka
+Liga Panstw Arabskich,Unia Afrykanska,
+
+Hiszpania
+Madryt
+Europa
+Grupa G20,UE,
+
+Indie
+Nowe Delhi
+Azja
+BRICS,Grupa G20,
+
+Kanada
+Ottawa
+Ameryka Polnocna
+G7,NATO,
+
+Niemcy
+Berlin
+Europa
+Grupa G7,Grupa Wyszehradzka,Unia Europejska,
+
+Polska
+Warszawa
+Europa
+Grupa Wyszehradzka,Unia Europejska,
+
+Rosja
+Moskwa
+Europa
+G7,OPEC,
+
+USA
+Waszyngton
+Ameryka Polnocna
+Grupa G7,

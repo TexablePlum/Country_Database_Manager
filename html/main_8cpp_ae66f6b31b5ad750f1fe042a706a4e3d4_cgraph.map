@@ -1,0 +1,14 @@
+<map id="main" name="main">
+<area shape="rect" id="node3" href="$main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="105,279,223,305"/>
+<area shape="rect" id="node5" href="$class_country_database.html#a1de089e54791cb6ac2ac408bade3cd4a" title="Wczytuje dane krajow z pliku. " alt="" coords="275,5,480,32"/>
+<area shape="rect" id="node7" href="$class_country_database.html#a4dcd6916ff3cc6a6f74bd09ba9fec6af" title="Sprawdza, czy kraj o podanej nazwie nalezy do okreslonego kontynentu. " alt="" coords="285,57,470,98"/>
+<area shape="rect" id="node9" href="$class_country_database.html#ab39bd3401cdebe17d9eb909127a14e78" title="Sprawdza, czy podane miasto jest stolica podanego kraju. " alt="" coords="276,122,479,163"/>
+<area shape="rect" id="node11" href="$class_country_database.html#a2b8ed0fae14988c3a4c1db5249ccaf54" title="Sprawdza, czy kraj o podanej nazwie nalezy do okreslonej organizacji. " alt="" coords="285,187,470,229"/>
+<area shape="rect" id="node13" href="$class_country.html#a2fbaebb3cf8af4a35a9b17a0c12e7bbe" title="Dodaje nowy element. " alt="" coords="329,253,425,280"/>
+<area shape="rect" id="node15" href="$class_country_database.html#a26d574a5b114ff9e23ca2212c0b8724c" title="Dodaje kraj do bazy danych. " alt="" coords="279,304,475,331"/>
+<area shape="rect" id="node17" href="$class_country_database.html#a786dbff36ec27d344f40c529f482aa57" title="Zapisuje dane krajow do pliku. " alt="" coords="282,355,473,381"/>
+<area shape="rect" id="node19" href="$class_country_database.html#a4dd4bb85533131d68dc7f3c8e4210b85" title="Usuwa kraj z bazy danych. " alt="" coords="272,405,483,432"/>
+<area shape="rect" id="node21" href="$class_country_database.html#abd2cee4a11e1a861d691faa646c0c2b2" title="Edytuje dane krajow w bazie danych. " alt="" coords="288,456,467,483"/>
+<area shape="rect" id="node25" href="$class_country_database.html#a79302ec180dd6d510b396ab251d2b518" title="Wyswietla wszystkie kraje z bazy danych. " alt="" coords="292,507,463,549"/>
+<area shape="rect" id="node23" href="$class_country.html#a96efa4ccefbb9d070211d55ef60bbb27" title="Edytuje element o podanym identyfikatorze. " alt="" coords="531,456,627,483"/>
+</map>

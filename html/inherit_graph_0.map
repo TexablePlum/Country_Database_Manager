@@ -1,0 +1,5 @@
+<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
+<area shape="rect" id="node1" href="$class_editable.html" title="Klasa abstrakcyjna reprezentujaca edytowalne elementy. " alt="" coords="5,5,75,32"/>
+<area shape="rect" id="node3" href="$class_country.html" title="Klasa reprezentujaca kraj. " alt="" coords="123,5,189,32"/>
+<area shape="rect" id="node5" href="$class_country_database.html" title="Klasa reprezentujaca baze danych krajow. " alt="" coords="237,5,360,32"/>
+</map>

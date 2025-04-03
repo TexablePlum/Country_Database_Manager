@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>Aplikacja - Atlas Geograficzny: Dokumentacja klasy CountryDatabase</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Aplikacja - Atlas Geograficzny
+   &#160;<span id="projectnumber">v: 0.5</span>
+   </div>
+   <div id="projectbrief">Aplikacja &quot;Atlas geograficzny&quot; to prosty program napisany w języku C++ w ramach przedmiotu: &quot;Informatyka i Podstawy Programowania&quot;</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klasy</span></a></li>
+      <li><a href="files.html"><span>Pliki</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Szukaj" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;klas</span></a></li>
+      <li><a href="classes.html"><span>Indeks&#160;klas</span></a></li>
+      <li><a href="inherits.html"><span>Hierarchia&#160;klas</span></a></li>
+      <li><a href="functions.html"><span>Składowe&#160;klas</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="class_country_database-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy CountryDatabase</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Klasa reprezentujaca baze danych krajow.  
+ <a href="class_country_database.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_country_database_8h_source.html">CountryDatabase.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla CountryDatabase</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database__inherit__graph.png" border="0" usemap="#_country_database_inherit__map" alt="Inheritance graph"/></div>
+<map name="_country_database_inherit__map" id="_country_database_inherit__map">
+<area shape="rect" id="node2" href="class_country.html" title="Klasa reprezentujaca kraj. " alt="" coords="39,147,149,298"/>
+<area shape="rect" id="node4" href="class_editable.html" title="Klasa abstrakcyjna reprezentujaca edytowalne elementy. " alt="" coords="60,6,129,98"/>
+</map>
+</div>
+<div class="dynheader">
+Diagram współpracy dla CountryDatabase:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database__coll__graph.png" border="0" usemap="#_country_database_coll__map" alt="Collaboration graph"/></div>
+<map name="_country_database_coll__map" id="_country_database_coll__map">
+<area shape="rect" id="node2" href="class_country.html" title="Klasa reprezentujaca kraj. " alt="" coords="39,147,149,298"/>
+<area shape="rect" id="node4" href="class_editable.html" title="Klasa abstrakcyjna reprezentujaca edytowalne elementy. " alt="" coords="60,6,129,98"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a26d574a5b114ff9e23ca2212c0b8724c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#a26d574a5b114ff9e23ca2212c0b8724c">addCountry</a> (<a class="el" href="class_country.html">Country</a> country)</td></tr>
+<tr class="memdesc:a26d574a5b114ff9e23ca2212c0b8724c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dodaje kraj do bazy danych.  <a href="#a26d574a5b114ff9e23ca2212c0b8724c">Więcej...</a><br /></td></tr>
+<tr class="separator:a26d574a5b114ff9e23ca2212c0b8724c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfaae794dd50cfb6a215a0bca98c82a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_country.html">Country</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#adfaae794dd50cfb6a215a0bca98c82a2">getCountry</a> (string countryName)</td></tr>
+<tr class="memdesc:adfaae794dd50cfb6a215a0bca98c82a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pobiera kraj o podanej nazwie.  <a href="#adfaae794dd50cfb6a215a0bca98c82a2">Więcej...</a><br /></td></tr>
+<tr class="separator:adfaae794dd50cfb6a215a0bca98c82a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1de089e54791cb6ac2ac408bade3cd4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#a1de089e54791cb6ac2ac408bade3cd4a">loadFromFile</a> (string filename)</td></tr>
+<tr class="memdesc:a1de089e54791cb6ac2ac408bade3cd4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wczytuje dane krajow z pliku.  <a href="#a1de089e54791cb6ac2ac408bade3cd4a">Więcej...</a><br /></td></tr>
+<tr class="separator:a1de089e54791cb6ac2ac408bade3cd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79302ec180dd6d510b396ab251d2b518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#a79302ec180dd6d510b396ab251d2b518">printAllCountries</a> ()</td></tr>
+<tr class="memdesc:a79302ec180dd6d510b396ab251d2b518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wyswietla wszystkie kraje z bazy danych.  <a href="#a79302ec180dd6d510b396ab251d2b518">Więcej...</a><br /></td></tr>
+<tr class="separator:a79302ec180dd6d510b396ab251d2b518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dcd6916ff3cc6a6f74bd09ba9fec6af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#a4dcd6916ff3cc6a6f74bd09ba9fec6af">isCountryOnContinent</a> (string countryName, string continentName)</td></tr>
+<tr class="memdesc:a4dcd6916ff3cc6a6f74bd09ba9fec6af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sprawdza, czy kraj o podanej nazwie nalezy do okreslonego kontynentu.  <a href="#a4dcd6916ff3cc6a6f74bd09ba9fec6af">Więcej...</a><br /></td></tr>
+<tr class="separator:a4dcd6916ff3cc6a6f74bd09ba9fec6af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39bd3401cdebe17d9eb909127a14e78"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#ab39bd3401cdebe17d9eb909127a14e78">isCityCapitalOfCountry</a> (string cityName, string countryName)</td></tr>
+<tr class="memdesc:ab39bd3401cdebe17d9eb909127a14e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sprawdza, czy podane miasto jest stolica podanego kraju.  <a href="#ab39bd3401cdebe17d9eb909127a14e78">Więcej...</a><br /></td></tr>
+<tr class="separator:ab39bd3401cdebe17d9eb909127a14e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8ed0fae14988c3a4c1db5249ccaf54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#a2b8ed0fae14988c3a4c1db5249ccaf54">isCountryInOrganization</a> (string countryName, string organizationName)</td></tr>
+<tr class="memdesc:a2b8ed0fae14988c3a4c1db5249ccaf54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sprawdza, czy kraj o podanej nazwie nalezy do okreslonej organizacji.  <a href="#a2b8ed0fae14988c3a4c1db5249ccaf54">Więcej...</a><br /></td></tr>
+<tr class="separator:a2b8ed0fae14988c3a4c1db5249ccaf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786dbff36ec27d344f40c529f482aa57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#a786dbff36ec27d344f40c529f482aa57">saveToFile</a> (string filename)</td></tr>
+<tr class="memdesc:a786dbff36ec27d344f40c529f482aa57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zapisuje dane krajow do pliku.  <a href="#a786dbff36ec27d344f40c529f482aa57">Więcej...</a><br /></td></tr>
+<tr class="separator:a786dbff36ec27d344f40c529f482aa57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd4bb85533131d68dc7f3c8e4210b85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#a4dd4bb85533131d68dc7f3c8e4210b85">deleteCountry</a> ()</td></tr>
+<tr class="memdesc:a4dd4bb85533131d68dc7f3c8e4210b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usuwa kraj z bazy danych.  <a href="#a4dd4bb85533131d68dc7f3c8e4210b85">Więcej...</a><br /></td></tr>
+<tr class="separator:a4dd4bb85533131d68dc7f3c8e4210b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2cee4a11e1a861d691faa646c0c2b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country_database.html#abd2cee4a11e1a861d691faa646c0c2b2">editData</a> ()</td></tr>
+<tr class="memdesc:abd2cee4a11e1a861d691faa646c0c2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edytuje dane krajow w bazie danych.  <a href="#abd2cee4a11e1a861d691faa646c0c2b2">Więcej...</a><br /></td></tr>
+<tr class="separator:abd2cee4a11e1a861d691faa646c0c2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_country"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_country')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="class_country.html">Country</a></td></tr>
+<tr class="memitem:a26d37f3c14fb25ccd0884c7396dbf83e inherit pub_methods_class_country"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country.html#a26d37f3c14fb25ccd0884c7396dbf83e">Country</a> (string <a class="el" href="class_country.html#a4b51ef0ea54d74f9debaf596e4276f05">name</a>=&quot;&quot;, string <a class="el" href="class_country.html#a3f1e0c6e819c3683411c57677f4f712d">capital</a>=&quot;&quot;, string <a class="el" href="class_country.html#aed34169e7f7f55521306e8516f079246">continent</a>=&quot;&quot;, set&lt; string &gt; <a class="el" href="class_country.html#a22f7a670ecb05125c8124e7cfbc2941e">organizations</a>={})</td></tr>
+<tr class="memdesc:a26d37f3c14fb25ccd0884c7396dbf83e inherit pub_methods_class_country"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor klasy <a class="el" href="class_country.html" title="Klasa reprezentujaca kraj. ">Country</a>.  <a href="#a26d37f3c14fb25ccd0884c7396dbf83e">Więcej...</a><br /></td></tr>
+<tr class="separator:a26d37f3c14fb25ccd0884c7396dbf83e inherit pub_methods_class_country"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fbaebb3cf8af4a35a9b17a0c12e7bbe inherit pub_methods_class_country"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country.html#a2fbaebb3cf8af4a35a9b17a0c12e7bbe">add</a> () override</td></tr>
+<tr class="memdesc:a2fbaebb3cf8af4a35a9b17a0c12e7bbe inherit pub_methods_class_country"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dodaje nowy element.  <a href="#a2fbaebb3cf8af4a35a9b17a0c12e7bbe">Więcej...</a><br /></td></tr>
+<tr class="separator:a2fbaebb3cf8af4a35a9b17a0c12e7bbe inherit pub_methods_class_country"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96efa4ccefbb9d070211d55ef60bbb27 inherit pub_methods_class_country"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country.html#a96efa4ccefbb9d070211d55ef60bbb27">edit</a> (char choice) override</td></tr>
+<tr class="memdesc:a96efa4ccefbb9d070211d55ef60bbb27 inherit pub_methods_class_country"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edytuje element o podanym identyfikatorze.  <a href="#a96efa4ccefbb9d070211d55ef60bbb27">Więcej...</a><br /></td></tr>
+<tr class="separator:a96efa4ccefbb9d070211d55ef60bbb27 inherit pub_methods_class_country"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Dodatkowe Dziedziczone Składowe</h2></td></tr>
+<tr class="inherit_header pub_attribs_class_country"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_country')"><img src="closed.png" alt="-"/>&#160;Atrybuty publiczne dziedziczone z <a class="el" href="class_country.html">Country</a></td></tr>
+<tr class="memitem:a4b51ef0ea54d74f9debaf596e4276f05 inherit pub_attribs_class_country"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country.html#a4b51ef0ea54d74f9debaf596e4276f05">name</a></td></tr>
+<tr class="separator:a4b51ef0ea54d74f9debaf596e4276f05 inherit pub_attribs_class_country"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f1e0c6e819c3683411c57677f4f712d inherit pub_attribs_class_country"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country.html#a3f1e0c6e819c3683411c57677f4f712d">capital</a></td></tr>
+<tr class="separator:a3f1e0c6e819c3683411c57677f4f712d inherit pub_attribs_class_country"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed34169e7f7f55521306e8516f079246 inherit pub_attribs_class_country"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country.html#aed34169e7f7f55521306e8516f079246">continent</a></td></tr>
+<tr class="separator:aed34169e7f7f55521306e8516f079246 inherit pub_attribs_class_country"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f7a670ecb05125c8124e7cfbc2941e inherit pub_attribs_class_country"><td class="memItemLeft" align="right" valign="top">set&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_country.html#a22f7a670ecb05125c8124e7cfbc2941e">organizations</a></td></tr>
+<tr class="separator:a22f7a670ecb05125c8124e7cfbc2941e inherit pub_attribs_class_country"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Klasa reprezentujaca baze danych krajow. </p>
+<p>Klasa <a class="el" href="class_country_database.html" title="Klasa reprezentujaca baze danych krajow. ">CountryDatabase</a> dziedziczy po klasie <a class="el" href="class_country.html" title="Klasa reprezentujaca kraj. ">Country</a> i reprezentuje baze danych zawierajaca informacje o roznych krajach. Udostepnia metody do dodawania, pobierania, wczytywania, drukowania i modyfikowania danych dotyczacych krajow. </p>
+
+<p>Definicja w linii <a class="el" href="_country_database_8h_source.html#l00022">22</a> pliku <a class="el" href="_country_database_8h_source.html">CountryDatabase.h</a>.</p>
+</div><h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a class="anchor" id="a26d574a5b114ff9e23ca2212c0b8724c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CountryDatabase::addCountry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_country.html">Country</a>&#160;</td>
+          <td class="paramname"><em>country</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dodaje kraj do bazy danych. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">country</td><td>Kraj do dodania. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00006">6</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_a26d574a5b114ff9e23ca2212c0b8724c_icgraph.png" border="0" usemap="#class_country_database_a26d574a5b114ff9e23ca2212c0b8724c_icgraph" alt=""/></div>
+<map name="class_country_database_a26d574a5b114ff9e23ca2212c0b8724c_icgraph" id="class_country_database_a26d574a5b114ff9e23ca2212c0b8724c_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="251,5,370,32"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="419,5,469,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4dd4bb85533131d68dc7f3c8e4210b85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CountryDatabase::deleteCountry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Usuwa kraj z bazy danych. </p>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00121">121</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_a4dd4bb85533131d68dc7f3c8e4210b85_icgraph.png" border="0" usemap="#class_country_database_a4dd4bb85533131d68dc7f3c8e4210b85_icgraph" alt=""/></div>
+<map name="class_country_database_a4dd4bb85533131d68dc7f3c8e4210b85_icgraph" id="class_country_database_a4dd4bb85533131d68dc7f3c8e4210b85_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="265,5,383,32"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="432,5,483,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abd2cee4a11e1a861d691faa646c0c2b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CountryDatabase::editData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Edytuje dane krajow w bazie danych. </p>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00136">136</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_abd2cee4a11e1a861d691faa646c0c2b2_cgraph.png" border="0" usemap="#class_country_database_abd2cee4a11e1a861d691faa646c0c2b2_cgraph" alt=""/></div>
+<map name="class_country_database_abd2cee4a11e1a861d691faa646c0c2b2_cgraph" id="class_country_database_abd2cee4a11e1a861d691faa646c0c2b2_cgraph">
+<area shape="rect" id="node3" href="class_country.html#a96efa4ccefbb9d070211d55ef60bbb27" title="Edytuje element o podanym identyfikatorze. " alt="" coords="232,5,328,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_abd2cee4a11e1a861d691faa646c0c2b2_icgraph.png" border="0" usemap="#class_country_database_abd2cee4a11e1a861d691faa646c0c2b2_icgraph" alt=""/></div>
+<map name="class_country_database_abd2cee4a11e1a861d691faa646c0c2b2_icgraph" id="class_country_database_abd2cee4a11e1a861d691faa646c0c2b2_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="233,5,351,32"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="400,5,451,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adfaae794dd50cfb6a215a0bca98c82a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_country.html">Country</a> CountryDatabase::getCountry </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>countryName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pobiera kraj o podanej nazwie. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">countryName</td><td>Nazwa kraju. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Kraj o podanej nazwie lub pusty kraj, jesli nie znaleziono pasujacego kraju. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00011">11</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab39bd3401cdebe17d9eb909127a14e78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CountryDatabase::isCityCapitalOfCountry </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>cityName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>countryName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sprawdza, czy podane miasto jest stolica podanego kraju. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cityName</td><td>Nazwa miasta. </td></tr>
+    <tr><td class="paramname">countryName</td><td>Nazwa kraju. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wartosc logiczna - true, jesli miasto jest stolica kraju, false w przeciwnym razie. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00084">84</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_ab39bd3401cdebe17d9eb909127a14e78_icgraph.png" border="0" usemap="#class_country_database_ab39bd3401cdebe17d9eb909127a14e78_icgraph" alt=""/></div>
+<map name="class_country_database_ab39bd3401cdebe17d9eb909127a14e78_icgraph" id="class_country_database_ab39bd3401cdebe17d9eb909127a14e78_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="257,12,375,39"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="424,12,475,39"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b8ed0fae14988c3a4c1db5249ccaf54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CountryDatabase::isCountryInOrganization </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>countryName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>organizationName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sprawdza, czy kraj o podanej nazwie nalezy do okreslonej organizacji. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">countryName</td><td>Nazwa kraju. </td></tr>
+    <tr><td class="paramname">organizationName</td><td>Nazwa organizacji. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wartosc logiczna - true, jesli kraj nalezy do organizacji, false w przeciwnym razie. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00090">90</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_a2b8ed0fae14988c3a4c1db5249ccaf54_icgraph.png" border="0" usemap="#class_country_database_a2b8ed0fae14988c3a4c1db5249ccaf54_icgraph" alt=""/></div>
+<map name="class_country_database_a2b8ed0fae14988c3a4c1db5249ccaf54_icgraph" id="class_country_database_a2b8ed0fae14988c3a4c1db5249ccaf54_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="241,12,359,39"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="408,12,459,39"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4dcd6916ff3cc6a6f74bd09ba9fec6af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CountryDatabase::isCountryOnContinent </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>countryName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>continentName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sprawdza, czy kraj o podanej nazwie nalezy do okreslonego kontynentu. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">countryName</td><td>Nazwa kraju. </td></tr>
+    <tr><td class="paramname">continentName</td><td>Nazwa kontynentu. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wartosc logiczna - true, jesli kraj nalezy do kontynentu, false w przeciwnym razie. </dd></dl>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00078">78</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_a4dcd6916ff3cc6a6f74bd09ba9fec6af_icgraph.png" border="0" usemap="#class_country_database_a4dcd6916ff3cc6a6f74bd09ba9fec6af_icgraph" alt=""/></div>
+<map name="class_country_database_a4dcd6916ff3cc6a6f74bd09ba9fec6af_icgraph" id="class_country_database_a4dcd6916ff3cc6a6f74bd09ba9fec6af_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="241,12,359,39"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="408,12,459,39"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1de089e54791cb6ac2ac408bade3cd4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CountryDatabase::loadFromFile </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wczytuje dane krajow z pliku. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Nazwa pliku. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00016">16</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_a1de089e54791cb6ac2ac408bade3cd4a_icgraph.png" border="0" usemap="#class_country_database_a1de089e54791cb6ac2ac408bade3cd4a_icgraph" alt=""/></div>
+<map name="class_country_database_a1de089e54791cb6ac2ac408bade3cd4a_icgraph" id="class_country_database_a1de089e54791cb6ac2ac408bade3cd4a_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="259,5,378,32"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="427,5,477,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a79302ec180dd6d510b396ab251d2b518"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CountryDatabase::printAllCountries </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wyswietla wszystkie kraje z bazy danych. </p>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00060">60</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_a79302ec180dd6d510b396ab251d2b518_icgraph.png" border="0" usemap="#class_country_database_a79302ec180dd6d510b396ab251d2b518_icgraph" alt=""/></div>
+<map name="class_country_database_a79302ec180dd6d510b396ab251d2b518_icgraph" id="class_country_database_a79302ec180dd6d510b396ab251d2b518_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="225,12,343,39"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="392,12,443,39"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a786dbff36ec27d344f40c529f482aa57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CountryDatabase::saveToFile </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Zapisuje dane krajow do pliku. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Nazwa pliku. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definicja w linii <a class="el" href="countrydatabase_8cpp_source.html#l00096">96</a> pliku <a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a>.</p>
+
+<p><div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_country_database_a786dbff36ec27d344f40c529f482aa57_icgraph.png" border="0" usemap="#class_country_database_a786dbff36ec27d344f40c529f482aa57_icgraph" alt=""/></div>
+<map name="class_country_database_a786dbff36ec27d344f40c529f482aa57_icgraph" id="class_country_database_a786dbff36ec27d344f40c529f482aa57_icgraph">
+<area shape="rect" id="node3" href="main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="246,5,365,32"/>
+<area shape="rect" id="node5" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="413,5,464,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li><a class="el" href="_country_database_8h_source.html">CountryDatabase.h</a></li>
+<li><a class="el" href="countrydatabase_8cpp_source.html">countrydatabase.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>

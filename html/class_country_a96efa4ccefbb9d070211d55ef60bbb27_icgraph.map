@@ -1,0 +1,5 @@
+<map id="Country::edit" name="Country::edit">
+<area shape="rect" id="node3" href="$class_country_database.html#abd2cee4a11e1a861d691faa646c0c2b2" title="Edytuje dane krajow w bazie danych. " alt="" coords="149,5,328,32"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a4944ae9d40ddd19a8f83a5e3b5f2452e" title="Funkcja obslugujaca menu i komunikacje z uzytkownikiem. " alt="" coords="377,5,495,32"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Funkcja glowna programu. " alt="" coords="544,5,595,32"/>
+</map>
